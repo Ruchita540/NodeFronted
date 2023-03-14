@@ -1,0 +1,59 @@
+.bolly-display{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+.bolly-dis-1{
+    width: 65%;
+}
+.bolly-dis-2{
+    width: 27%;
+}
+.underline{
+    background-color: red;
+    width: 5rem;
+    height: 3px;
+    margin: 2px 3%;
+}
+.bolly-heading{
+    margin: 0px 3%;
+}
+.bolly-card-dis{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+.bolly-card-1{
+    width: 40%;
+    margin: 1%;
+}
+.bolly-card-2{
+    width: 52%;
+    margin: 1%;
+}
+.advertisement{
+    border: 3px solid grey;
+    width: 90%;
+    margin: 2%;
+    height: 600px;
+}
+.advertisement1{
+    border: 3px solid grey;
+    width: 90%;
+    margin: 2%;
+    height: 100%;
+}
+
+@media only screen and (max-width:700px){
+    .bolly-display{
+        display: block;
+        
+      
+    }
+    .bolly-dis-1{
+        width: 95%;
+    }
+    .bolly-dis-2{
+        width: 95%;
+    }
+}

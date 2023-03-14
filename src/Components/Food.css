@@ -1,0 +1,53 @@
+.food-display{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+.food-dis-1{
+    width: 65%;
+}
+.food-dis-2{
+    width: 27%;
+}
+.underline{
+    background-color: red;
+    width: 5rem;
+    height: 3px;
+    margin: 2px 3%;
+}
+.food-heading{
+    margin: 0px 3%;
+}
+.food-card-dis{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+.food-card-1{
+    width: 40%;
+    margin: 1%;
+}
+.food-card-2{
+    width: 52%;
+    margin: 1%;
+}
+.advertisement{
+    border: 3px solid grey;
+    width: 90%;
+    margin: 2%;
+    height: 500px;
+}
+
+@media only screen and (max-width:700px){
+    .food-display{
+        display: block;
+        
+      
+    }
+    .food-dis-1{
+        width: 95%;
+    }
+    .food-dis-2{
+        width: 95%;
+    }
+}
